@@ -1,0 +1,163 @@
+[
+  {
+    "id": "ocean-breeze",
+    "name": "Ocean Breeze",
+    "panel": [
+      106,
+      362,
+      689,
+      620
+    ],
+    "ink": "#123D42",
+    "accent": "#076568",
+    "body": "#365454",
+    "badge": "#F8D498",
+    "priceInk": "#123D42",
+    "rule": "#AECAC0",
+    "titleFont": "title"
+  },
+  {
+    "id": "coral-cove",
+    "name": "Coral Cove",
+    "panel": [
+      120,
+      348,
+      674,
+      634
+    ],
+    "ink": "#613b3b",
+    "accent": "#8b4244",
+    "body": "#624c48",
+    "badge": "#f8cdc0",
+    "priceInk": "#123D42",
+    "rule": "#dba99b",
+    "titleFont": "title",
+    "cardLayout": "postcard"
+  },
+  {
+    "id": "lemon-shore",
+    "name": "Lemon Shore",
+    "panel": [
+      101,
+      366,
+      535,
+      627
+    ],
+    "ink": "#34462e",
+    "accent": "#6c5b13",
+    "body": "#475446",
+    "badge": "#ffe292",
+    "priceInk": "#123D42",
+    "rule": "#AECAC0",
+    "titleFont": "bold",
+    "cardLayout": "ticket"
+  },
+  {
+    "id": "palm-lagoon",
+    "name": "Palm Lagoon",
+    "panel": [
+      94,
+      356,
+      598,
+      641
+    ],
+    "ink": "#163f35",
+    "accent": "#216153",
+    "body": "#335449",
+    "badge": "#c7e8ce",
+    "priceInk": "#123D42",
+    "rule": "#92bfa9",
+    "titleFont": "title",
+    "cardLayout": "leaf"
+  },
+  {
+    "id": "sunset-surf",
+    "name": "Sunset Surf",
+    "panel": [
+      112,
+      346,
+      682,
+      642
+    ],
+    "ink": "#54314c",
+    "accent": "#714267",
+    "body": "#584557",
+    "badge": "#79475f",
+    "priceInk": "#fff5e9",
+    "rule": "#AECAC0",
+    "titleFont": "title",
+    "cardLayout": "sunset"
+  },
+  {
+    "id": "golden-petal",
+    "name": "Golden Petal",
+    "panel": [
+      52,
+      417,
+      741,
+      754
+    ],
+    "ink": "#4c3718",
+    "accent": "#75500d",
+    "body": "#51432a",
+    "badge": "#f4d475",
+    "priceInk": "#412d12",
+    "rule": "#c8b99b",
+    "titleFont": "title",
+    "archived": true
+  },
+  {
+    "id": "canyon-clay",
+    "name": "Canyon Clay",
+    "panel": [
+      66,
+      163,
+      488,
+      642
+    ],
+    "ink": "#562915",
+    "accent": "#923f25",
+    "body": "#543c30",
+    "badge": "#aa4627",
+    "priceInk": "#fff7ed",
+    "rule": "#d8ac87",
+    "titleFont": "bold",
+    "archived": true
+  },
+  {
+    "id": "alpine-field",
+    "name": "Alpine Field",
+    "panel": [
+      48,
+      451,
+      745,
+      759
+    ],
+    "ink": "#f0f5ef",
+    "accent": "#cee885",
+    "body": "#d4dfd5",
+    "badge": "#cee885",
+    "priceInk": "#203222",
+    "rule": "#607362",
+    "titleFont": "bold",
+    "archived": true
+  },
+  {
+    "id": "violet-pier",
+    "name": "Violet Pier",
+    "panel": [
+      64,
+      424,
+      729,
+      735
+    ],
+    "ink": "#fff4e6",
+    "accent": "#f8bd9e",
+    "body": "#eeede9",
+    "badge": "#e9bdac",
+    "priceInk": "#382438",
+    "rule": "#8f7881",
+    "titleFont": "title",
+    "archived": true
+  }
+]

@@ -1,0 +1,20 @@
+name: swell-poster-studio
+services:
+  db:
+    image: ${POSTGRES_IMAGE:-postgres:17-alpine}
+    environment:
+      POSTGRES_USER: swell
+      POSTGRES_PASSWORD: swell_local_dev
+      POSTGRES_DB: poster_studio
+    ports:
+      - "127.0.0.1:55436:5432"
+    volumes:
+      - posters_pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U swell -d poster_studio"]
+      interval: 3s
+      timeout: 3s
+      retries: 20
+volumes:
+  posters_pgdata: {}
+
