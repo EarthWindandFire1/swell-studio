@@ -2,6 +2,7 @@ FROM node:22-bookworm-slim AS ui
 WORKDIR /ui
 COPY frontend/package*.json ./
 RUN npm ci
+COPY templates.json /templates.json
 COPY frontend/ ./
 RUN npm run build
 
