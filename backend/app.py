@@ -82,7 +82,12 @@ def protect_api():
         return
     if request.method in ("POST", "DELETE"):
         origin = request.headers.get("Origin")
-        if origin and origin not in (request.host_url.rstrip("/"), os.getenv("FRONTEND_ORIGIN")):
+        allowed_origins = (
+            request.host_url.rstrip("/"),
+            os.getenv("FRONTEND_ORIGIN"),
+            os.getenv("RENDER_EXTERNAL_URL", "").rstrip("/"),
+        )
+        if origin and origin not in allowed_origins:
             return jsonify(error="Unrecognized studio origin."), 403
         if request.method == "POST" and not request.is_json:
             return jsonify(error="Send a JSON request."), 415
